@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>icons/close_light.png</file>
+        <file>icons/maximize_light.png</file>
+        <file>icons/minimize_light.png</file>
+        <file>style/mainwindow.qss</file>
+        <file>icons/checkmark.svg</file>
+        <file>icons/plus.svg</file>
+        <file>icons/save_arrow.svg</file>
+        <file>icons/gear_wheel.svg</file>
+        <file>icons/left_arrow_square.svg</file>
+        <file>icons/right_arrow_square.svg</file>
+        <file>icons/icons8-graph-64.png</file>
+        <file>icons/delete.svg</file>
+        <file>icons/edit.svg</file>
+        <file>icons/burger.svg</file>
+        <file>icons/hide.svg</file>
+        <file>icons/show.svg</file>
+        <file>icons/question-mark-circled.svg</file>
+        <file>help/help.html</file>
+        <file>help/help.css</file>
+        <file>help/VisualizerOfMathematicalFunctions_wr4VXZCp6H.png</file>
+        <file>help/VisualizerOfMathematicalFunctions_1xWgqyHVEr.png</file>
+        <file>help/VisualizerOfMathematicalFunctions_A1iBIUyQeX.png</file>
+    </qresource>
+</RCC>

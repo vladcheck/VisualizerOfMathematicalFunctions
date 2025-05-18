@@ -1,0 +1,141 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* letter-spacing: -0.5px;  */
+    color: #333;
+    /* font-weight: 600; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+QPushButton#pushButton_AddFuncBox {
+    height: 50px;
+}
+
+QPushButton {
+    text-align: center;
+}
+
+
+QPushButton#deletePushButton {
+    background: transparent;
+}
+
+QPushButton#deletePushButton:hover {
+    color: blue;
+}
+
+QPushButton#PushButtonMaximize {
+    background-color: rgba(111, 173, 236, 0.5);
+    border-radius: 4px;
+    min-width: 36px;
+    min-height: 36px;
+}
+
+QPushButton#PushButtonMaximize:hover {
+    background-color: rgba(111, 173, 236, 0.6);
+}
+
+QPushButton#PushButtonMaximize:pressed {
+    background-color: rgba(111, 173, 236, 0.7);
+}
+
+#ClassPushButtonTopWidget {
+    min-height: 50px;
+}
+
+#ClassPushButtonTopWidget:hover,
+#PushButtonMaximize:hover,
+#pushButton_AddFuncBox:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#ClassPushButtonTopWidget:hover,
+#PushButtonMaximize:pressed,
+#pushButton_AddFuncBox:pressed {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+QTextEdit {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    background: rgba(255, 255, 255, 1);
+    font-style: italic;
+    selection-background-color: rgba(111, 173, 236, 0.8);
+}
+
+
+#scrollAreaFuncWidget QScrollBar:vertical {
+    width: 0px;
+}
+#scrollAreaFuncWidget {
+    background: transparent;
+}
+
+QMainWindow {
+    background-color: #fff;
+}
+
+
+QToolTip{
+    color: #fff;
+}
+
+
+
+UserWidget {
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+
+QWidget#topWidget {
+    /* background-color: rgba(111, 173, 236, 0.95); */
+    min-height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+QLabel {
+    color: #fff;
+}
+
+
+QScrollBar:vertical {
+    background-color: rgba(111, 173, 236, 0.2);
+    width: 6px;
+    border-radius: 4px;
+}
+
+QScrollBar:hover:vertical {
+    background-color: rgba(111, 173, 236, 0.3);
+}
+
+QScrollBar::handle:vertical {
+    background-color: rgba(111, 173, 236, 0.45);
+    min-height: 20px;
+    border-radius: 3px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: rgba(111, 173, 236, 0.6);
+}
+
+QScrollBar::sub-line:vertical,
+QScrollBar::add-line:vertical {
+    height: 0;
+    width: 0;
+}
+
+QScrollBar::up-arrow:vertical,
+QScrollBar::down-arrow:vertical {
+    background: none;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QScrollBar::up-arrow:vertical:hover,
+QScrollBar::down-arrow:vertical:hover {
+    background-color: rgba(111, 173, 236, 0.7);
+}
